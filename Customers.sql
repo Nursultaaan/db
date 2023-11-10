@@ -15,3 +15,4 @@ insert into Customers (id, first_name, last_name, email, address) values (7, 'An
 insert into Customers (id, first_name, last_name, email, address) values (8, 'Patricia', 'Mozzi', 'pmozzi7@nifty.com', 'Room 1146');
 insert into Customers (id, first_name, last_name, email, address) values (9, 'Reg', 'Kingswoode', 'rkingswoode8@samsung.com', 'Suite 65');
 insert into Customers (id, first_name, last_name, email, address) values (10, 'Clarence', 'Ahrendsen', 'cahrendsen9@ihg.com', 'Room 1699');
+insert into Customers (id, first_name, last_name, email, address) values (11, 'Kennan', 'Hazeldene', 'khazeldene0@eventbrite.com', 'Room 726');
