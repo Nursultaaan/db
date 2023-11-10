@@ -1,14 +1,15 @@
+#v1.3
 import psycopg2
 
 conn = psycopg2.connect(
     host = "localhost",
     database = "Customers",
     user = "postgres",
-    password = "123456" #v1.2
+    password = "123456" 
 )
  
 cur = conn.cursor()
-print("Connected succesfully!")
+print("Connected successfully!") 
 cur.execute("SELECT first_name FROM customers")
 usernames = [r[0] for r in cur.fetchall()]
 username = input("Enter your username: ")
